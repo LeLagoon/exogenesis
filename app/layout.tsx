@@ -31,7 +31,7 @@ export default function RootLayout({
           className={`${montserrat.className} antialiased w-[100vw] h-[100vh] flex flex-col items-center justify-center`} 
           >
             <h1 className="text-[15vw] text-[#651DFF] font-black mb-0">400</h1>
-        <div className="font-semibold text-xl text-center">This website can only be opened on a Mobile device.</div>
+        <div className="font-semibold text-xl text-center">This website can only be opened on a Mobile device.<br />Right-click and Inspect. After that click on the devices icon on the top left of the inspect panel.<br /> Refresh after you've selected your device.</div>
         </body>
       </html>
     )
